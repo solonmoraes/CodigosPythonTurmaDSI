@@ -1,0 +1,6 @@
+nome = input("*****Qual o seu nome?\n")
+endereco = input("*****imforme seu inderço!\n ")
+idade = input("*****Imforme sua idade!\n ")
+print("Ola o seu nome:", nome)
+print("idereço:", endereco)
+print("Idade informada:", idade)
