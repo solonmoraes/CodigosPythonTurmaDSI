@@ -1,5 +1,6 @@
 # operadores + - * / %
 # operador exponenciaçao **
+# operador de divisao inteiro //
 '''
 Sera comentarios de varias linhas
 
@@ -15,3 +16,7 @@ print(nota1 +nota2)
 media = (nota1 + nota2)/2
 
 print("A media entre as notas {} e {} e {}".format(nota1,nota2,media))
+#EXEMPLO DO OPERDOR //
+
+print("Divisao normal: ",10/6)
+print("Divisao retornando o valor inteiro: ",10//6)
