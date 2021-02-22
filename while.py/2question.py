@@ -1,17 +1,20 @@
-cont = 0
-while True:
-    valor = int(input("Informe o valor numerico qualquer: "))
-    
-    if valor == 0:
-        break
-    if cont==0:
-        maior = valor
-        menor = valor
-    else:
-        if valor > maior:
-            maior = valor
-        elif valor < menor:
-            menor = valor
-    cont += 1
+valores = list()
+pares = []
 
-    print(f"O maior valor e {maior} e o menor e {menor}\n\n")
+for cont in range(0,10):
+    valores.append(int(input(f"INFORME O VALOR {cont+1}: ")))
+
+    if valores[cont] % 2 == 0:
+        pares.append(valores[cont])
+
+print (valores)
+
+for cont in range(0,len(pares)):
+    if pares[cont] in valores:
+        valores.remove(pares[cont])
+
+del(pares) 
+
+
+print(f"Lista sem os valores pares: {valores}\n\n")
+
