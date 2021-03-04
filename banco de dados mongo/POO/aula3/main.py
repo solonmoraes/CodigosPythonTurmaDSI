@@ -16,4 +16,6 @@ minhaConta = Conta2(589,"Epamenondas",700)
 
 print(minhaConta.saldo)
 
+minhaConta.saldo = -600
 
+print(minhaConta.saldo)
